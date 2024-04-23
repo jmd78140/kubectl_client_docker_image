@@ -5,7 +5,7 @@ FROM alpine
 MAINTAINER jmd@LearningSystems.ai
 
 # Define default environment variables
-ENV KUBECTL_VERSION="v1.28.6"
+ENV KUBECTL_VERSION="v1.30.0"
 
 # Install kubectl
 RUN apk add --update ca-certificates \
